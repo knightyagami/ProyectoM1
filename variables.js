@@ -14,3 +14,4 @@ let meteors = []
 let score = 0
 let impacts = 0
 let healtBar = new HealthBar()
+let startedGame = false

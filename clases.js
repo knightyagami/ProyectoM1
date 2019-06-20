@@ -111,8 +111,8 @@ class HealthBar{
   constructor(){
     this.x = 470
     this.y = 0
-    this.width = 110
-    this.height = 75
+    this.width = 150
+    this.height = 50
     this.image = new Image()
     this.image.src = './imagenes/HealthFull.png'
   }

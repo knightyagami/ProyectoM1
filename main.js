@@ -17,7 +17,7 @@ function update(){
   game_Over()
 }
 function startGame() {
-  if(interval) return
+  startedGame = true
   interval = setInterval(update, 1000/60)
 }
 function drawBlasting01(){
