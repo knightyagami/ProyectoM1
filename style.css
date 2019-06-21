@@ -1,0 +1,36 @@
+body{
+  background: black;
+  height: 90vh;
+  color: white;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 200px;
+  justify-content: center;
+  align-items: center
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 75px;
+  background-color: whitesmoke
+}
+
+ .inst {
+   position: absolute;
+   margin-left: 1100px;
+   margin-top: -600px;
+   background-color: whitesmoke;
+   color: black;
+   border-radius: 20px;
+   width: 300px;
+   padding: 20px;
+ }
+ img{
+   width: 100px;
+ }

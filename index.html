@@ -4,21 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   <title>Space Shooter</title>
 </head>
 <body>
-  <div id="game-board">
-    <canvas id="scenaprincipal" height="500" width="1000"></canvas>
+  <div id="center">
+    <div id="game-board">
+      <canvas id="scenaprincipal" height="500" width="1000"></canvas>
+    </div>
+    <div class="btns">
+        <button id="startButton" class="btn"><b>START</b></button>
+        <button id="restartButton" class="btn"><b>RESTART</b></button>
+    </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  
+  <div class="inst">
+    <p>
+      Historia:<br>Ayuda a Panfilo Jerundio Filomeno. El explorador, Pirata, Vaquero, Soldado, Gobernador, Trailero
+      espacial a cruzar el campo de asteroides para poder llevar las cargas de refresco Pascual al otro lado, donde familias que acaban de comer
+      quesadillas con queso, necesitan de ese liquido vital para poderse bajar sus alimentos. <br>Instrucciones:<br>Utiliza las flechas del teclado para moverte<br>
+      <img src="./imagenes/arrow-button-on-keyboard-icon-260nw-339331691.jpg"><br>Pulsa F para disparar<br><img src="./imagenes/F keyboard.jpg">
+    </p>
+  </div>
   <script>
-  WebFont.load({
-    google: {
-      families: ['Press Start 2P', 'Droid Serif']
-    }
-  });
-  </script>
+      WebFont.load({
+        google: {
+          families: ['Press Start 2P', 'Droid Serif']
+        }
+      });
+      </script>
   <script src="clases.js"></script>
   <script src="variables.js"></script>
   <script src="helpers.js"></script>

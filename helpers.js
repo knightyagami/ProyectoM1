@@ -17,7 +17,7 @@ function drawMeteors() {
       meteor.draw();
       if(spaceship.collision(meteor)){
           meteors.splice(index, 1);
-          score-=50
+          score-=25
           impacts++
       }
   })
